@@ -1,11 +1,11 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
-    <Navbar variant="dark" bg="dark">
+    <Navbar>
       <Navbar.Brand>
         <FontAwesomeIcon icon={faCode} />
         {' '}
@@ -14,7 +14,9 @@ export default function Header() {
       <Nav>
         <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
         <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
-        <Nav.Link href="https://aoc-2020.bryantkelley.com">Advent of Code</Nav.Link>
+        <NavDropdown>
+          <Nav.Link href="https://aoc-2020.bryantkelley.com">Advent of Code</Nav.Link>
+        </NavDropdown>
       </Nav>
     </Navbar>
   );
