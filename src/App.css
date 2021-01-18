@@ -30,13 +30,14 @@
   box-shadow: 15px 15px 30px #ecedee,
              -15px -15px 30px #ffffff;
   margin: 0em 1em 2em 1em;
-  padding: 5px;
+  padding: 3px;
 }
 
 .neumorph-dark-text {
   border-radius: 50px;
-  margin: 5px;
-  background-image: linear-gradient(to bottom right, #343a40, #6c757d);
+  margin: 3px;
+  background: #343a40;
   border-color: #f8f9fa;
   color: #f8f9fa;
+  padding: 3px;
 }
