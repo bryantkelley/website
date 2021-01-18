@@ -12,7 +12,7 @@ export default function Header() {
           <h3 className="neumorph-dark-text">Black Trans Lives Matter.</h3>
         </div>
       </span>
-      <Navbar collapseOnSelect expand variant="light" bg="light" sticky="top" className="neumorph-nav">
+      <Navbar collapseOnSelect expand variant="light" bg="light" className="neumorph-nav">
         <Navbar.Brand>
           <FontAwesomeIcon icon={faCode} />
           {' '}
