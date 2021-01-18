@@ -3,9 +3,40 @@
   height: 100vh;
 }
 
-.floating-shadow {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
-              0 2px 2px rgba(0, 0, 0, 0.2),
-              0 4px 4px rgba(0, 0, 0, 0.2),
-              0 8px 8px rgba(0, 0, 0, 0.2);
+.neumorph-card {
+  border-radius: 50px;
+  padding: 1em;
+  background: #f8f9fa;
+  border-color: #f8f9fa;
+  box-shadow: 15px 15px 30px #ecedee,
+             -15px -15px 30px #ffffff;
+}
+
+.neumorph-nav {
+  background: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 50px;
+  box-shadow: 15px 15px 30px #ecedee,
+             -15px -15px 30px #ffffff;
+  margin: 0em 1em 1em 1em;
+  overflow: show;
+}
+
+.neumorph-banner {
+  background: #f8f9fa;
+  border-color: #f8f9fa;
+  border-width: 10px;
+  border-radius: 50px;
+  box-shadow: 15px 15px 30px #ecedee,
+             -15px -15px 30px #ffffff;
+  margin: 0em 1em 2em 1em;
+  padding: 5px;
+}
+
+.neumorph-dark-text {
+  border-radius: 50px;
+  margin: 5px;
+  background-image: linear-gradient(to bottom right, #343a40, #6c757d);
+  border-color: #f8f9fa;
+  color: #f8f9fa;
 }
