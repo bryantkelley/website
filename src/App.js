@@ -8,8 +8,8 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <div className="App bg-light">
-      <Header />
       <Container>
+        <Header />
         <Home />
       </Container>
     </div>
