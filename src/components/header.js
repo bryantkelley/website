@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Alert, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,29 +8,25 @@ export default function Header() {
     <>
       <br />
       <span>
-        <div className="neumorph-banner">
-          <h3 className="neumorph-dark-text">Black Trans Lives Matter.</h3>
-        </div>
+        <Alert variant="dark">
+          <h3>Black Trans Lives Matter.</h3>
+        </Alert>
       </span>
-      <Navbar collapseOnSelect expand variant="light" bg="light" className="neumorph-nav">
+      <Navbar collapseOnSelect expand variant="primary">
         <Navbar.Brand>
           <FontAwesomeIcon icon={faCode} />
           {' '}
-          Bryant Kelley
+          <code>Bryant Kelley</code>
         </Navbar.Brand>
         <Navbar.Collapse>
           <Nav className="mr-auto d-none d-md-flex">
             <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
             <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
-            <NavDropdown title="Links">
-              <Nav.Link href="https://aoc-2020.bryantkelley.com">Advent of Code</Nav.Link>
-            </NavDropdown>
           </Nav>
           <Nav className="mr-auto d-xs-flex d-md-none">
             <NavDropdown title="Links">
               <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
               <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
-              <Nav.Link href="https://aoc-2020.bryantkelley.com">Advent of Code</Nav.Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
