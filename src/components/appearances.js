@@ -6,7 +6,7 @@ export default function Appearances() {
     <Row className="mt-5">
       <Col>
         <h3>Podcast Appearances</h3>
-        <h5>Oops, my friends accidentally let me on their shows</h5>
+        <h5>Oops, my friends accidentally let me on their shows.</h5>
         <Row>
           <Col>
             <h4>
