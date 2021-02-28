@@ -1,3 +1,20 @@
 .App {
   text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #343a40;
+  }
+
+  body {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+
+  .alert-dark {
+    background-color: #000000;
+    border-color: #111111;
+    color: #ffffff;
+  }
+}
