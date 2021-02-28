@@ -8,7 +8,7 @@ export default function Appearances() {
         <h3>Podcast Appearances</h3>
         <h5>Oops, my friends accidentally let me on their shows.</h5>
         <Row>
-          <Col>
+          <Col xs={12} sm={6}>
             <h4>
               <code>I Have No Idea What I'm Doing</code>
             </h4>
@@ -16,7 +16,7 @@ export default function Appearances() {
               <h5>Pop Off Episode 3 - "Milk Tubes"</h5>
             </a>
           </Col>
-          <Col>
+          <Col xs={12} sm={6}>
             <h4>
               <code>Idle Curiosities</code>
             </h4>
