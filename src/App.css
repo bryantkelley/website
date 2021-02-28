@@ -4,17 +4,30 @@
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #343a40;
+    background-color: black;
   }
 
   body {
-    background-color: #343a40;
-    color: #ffffff;
+    background-color: black;
+    color: white;
+  }
+
+  code {
+    color: lightgreen;
+
+  }
+
+  a {
+    color: lightblue;
+  }
+
+  a:hover {
+    color: lightskyblue;
   }
 
   .alert-dark {
-    background-color: #000000;
-    border-color: #111111;
-    color: #ffffff;
+    background-color: black;
+    border-color: gray;
+    color: white;
   }
 }
