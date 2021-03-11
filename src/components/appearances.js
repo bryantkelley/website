@@ -23,6 +23,9 @@ export default function Appearances() {
             <a href="https://idlecuriosities.com/episodes/033-the-first-of-many-bad-things-to-come-ft-bryant-kelley">
               <h5>033 - the first of many bad things to come ft. bryant kelley</h5>
             </a>
+            <a href="https://idlecuriosities.com/episodes/037-the-cat-knows-how-fat-it-is-live">
+              <h5>037 - the cat knows how fat it is (live!)</h5>
+            </a>
           </Col>
         </Row>
       </Col>
