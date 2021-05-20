@@ -14,7 +14,6 @@
 
   code {
     color: lightgreen;
-
   }
 
   a {
@@ -29,5 +28,16 @@
     background-color: black;
     border-color: gray;
     color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #eeeeee;
+  }
+
+  body {
+    background-color: #eeeeee;
+    color: #111111;
   }
 }
