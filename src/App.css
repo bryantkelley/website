@@ -4,11 +4,11 @@
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: black;
+    background-color: #111111;
   }
 
   body {
-    background-color: black;
+    background-color: #111111;
     color: white;
   }
 
@@ -25,7 +25,7 @@
   }
 
   .alert-dark {
-    background-color: black;
+    background-color: #111111;
     border-color: gray;
     color: white;
   }
@@ -33,11 +33,11 @@
 
 @media (prefers-color-scheme: light) {
   html {
-    background-color: #eeeeee;
+    background-color: #eceef1;
   }
 
   body {
-    background-color: #eeeeee;
+    background-color: #eceef1;
     color: #111111;
   }
 }
