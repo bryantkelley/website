@@ -3,13 +3,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: #111111;
-  }
-
-  body {
-    background-color: #111111;
-    color: white;
+  :root {
+    --code: lightgreen;
+    --background: #111111;
+    --foreground: #ffffff;
   }
 
   code {
@@ -25,19 +22,26 @@
   }
 
   .alert-dark {
-    background-color: #111111;
+    background-color: var(--background);
     border-color: gray;
     color: white;
   }
 }
 
 @media (prefers-color-scheme: light) {
-  html {
-    background-color: #eceef1;
+  :root {
+    --code: var(--pink);
+    --background: #e1e1e1;
+    --foreground: #111111;
   }
+  
+}
 
-  body {
-    background-color: #eceef1;
-    color: #111111;
-  }
+html {
+  background-color: var(--background);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
 }

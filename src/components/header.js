@@ -22,11 +22,13 @@ export default function Header() {
           <Nav className="mr-auto d-none d-md-flex">
             <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
             <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
+            <Nav.Link href="https://www.yetanotherhobby.com/">Podcast</Nav.Link>
           </Nav>
           <Nav className="mr-auto d-xs-flex d-md-none">
             <NavDropdown title="Links">
               <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
               <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
+              <Nav.Link href="https://www.yetanotherhobby.com/">Podcast</Nav.Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
