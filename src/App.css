@@ -4,21 +4,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --code: lightgreen;
+    --code: var(--teal);
     --background: #111111;
     --foreground: #ffffff;
   }
 
   code {
-    color: lightgreen;
+    color: var(--teal);
   }
 
   a {
-    color: lightblue;
+    color: var(--cyan);
   }
 
   a:hover {
-    color: lightskyblue;
+    color: #14869b;
   }
 
   .alert-dark {
