@@ -1,30 +1,24 @@
 import React from 'react';
-import { Alert, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Alert, Container, Nav, Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
     <>
-      <Navbar collapseOnSelect expand variant="dark" className="nav-bg">
+      <Navbar collapseOnSelect expand="lg" variant="dark" className="nav-bg">
         <Container>
           <Navbar.Brand>
             <FontAwesomeIcon icon={faCode} />
             {' '}
             Bryant Kelley
           </Navbar.Brand>
+          <Navbar.Toggle />
           <Navbar.Collapse>
-            <Nav className="mr-auto d-none d-md-flex">
+            <Nav>
               <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
               <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
               <Nav.Link href="https://www.yetanotherhobby.com/">Podcast</Nav.Link>
-            </Nav>
-            <Nav className="mr-auto d-xs-flex d-md-none">
-              <NavDropdown title="Links">
-                <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
-                <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
-                <Nav.Link href="https://www.yetanotherhobby.com/">Podcast</Nav.Link>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
