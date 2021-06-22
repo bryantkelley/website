@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 export default function Header() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark" className="nav-bg">
+      <Navbar collapseOnSelect expand="md" variant="dark" className="nav-bg">
         <Container>
           <Navbar.Brand>
             <FontAwesomeIcon icon={faCode} />
