@@ -1,25 +1,21 @@
-.App {
-  text-align: center;
-  padding-bottom: env(safe-area-inset-bottom);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --code: var(--teal);
+    --code: var(--cyan);
     --background: #111111;
     --foreground: #ffffff;
+    --header: var(--cyan);
   }
 
   code {
-    color: var(--teal);
+    color: var(--code);
   }
 
   a {
-    color: var(--cyan);
+    color: var(--teal);
   }
 
   a:hover {
-    color: #14869b;
+    color: #0eb980;
   }
 
   .alert-dark {
@@ -34,6 +30,7 @@
     --code: var(--pink);
     --background: #e1e1e1;
     --foreground: #111111;
+    --header: var(--pink);
   }
 }
 
@@ -42,6 +39,17 @@ html {
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--header);
   color: var(--foreground);
+}
+
+.App {
+  text-align: center;
+  padding-bottom: env(safe-area-inset-bottom);
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+.nav-bg {
+  background-color: var(--header);
 }

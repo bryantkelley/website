@@ -9,8 +9,8 @@ import Appearances from './components/appearances';
 function App() {
   return (
     <div className="App">
+      <Header />
       <Container>
-        <Header />
         <Home />
         <Appearances />
       </Container>
