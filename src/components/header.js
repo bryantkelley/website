@@ -17,7 +17,6 @@ export default function Header() {
             <Nav>
               <Nav.Link href="https://github.com/bryantkelley">GitHub</Nav.Link>
               <Nav.Link href="https://twitter.com/_bryantkelley">Twitter</Nav.Link>
-              <Nav.Link href="https://www.yetanotherhobby.com/">Podcast</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

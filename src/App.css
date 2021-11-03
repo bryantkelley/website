@@ -1,9 +1,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --code: var(--cyan);
+    --code: #17a2b8;
     --background: #111111;
     --foreground: #ffffff;
-    --header: var(--cyan);
+    --header: #17a2b8;
   }
 
   code {
@@ -27,10 +27,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --code: var(--pink);
+    --code: #e83e8c;
     --background: #e1e1e1;
     --foreground: #111111;
-    --header: var(--pink);
+    --header: #e83e8c;
   }
 }
 
