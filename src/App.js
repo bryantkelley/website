@@ -1,10 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import { Container } from 'react-bootstrap';
-import Home from './components/home';
-import Header from './components/header';
-import Appearances from './components/appearances';
-import Advent from './components/advent';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Container } from "react-bootstrap";
+import Home from "./components/home";
+import Header from "./components/header";
+import Appearances from "./components/appearances";
 
 function App() {
   return (
@@ -13,9 +12,6 @@ function App() {
       <Container>
         <Home />
         <Appearances />
-        {new Date().getMonth() === 11 && (
-          <Advent />
-        )}
       </Container>
     </div>
   );
