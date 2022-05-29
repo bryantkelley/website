@@ -1,6 +1,11 @@
 export default function Home() {
-  const modifers = ["terrible", "horrible", "no good", "very bad"];
-  const randomNumber = Math.floor(Math.random() * modifers.length);
+  const bits = [
+    "landing page",
+    "mediocre website",
+    "fun to refresh page",
+    "source of many regrets",
+  ];
+  const randomNumber = Math.floor(Math.random() * bits.length);
   return (
     <div className="flex-box container">
       <div className="flex-item">
@@ -24,12 +29,12 @@ export default function Home() {
         </svg>
       </div>
       <div className="flex-item">
-        <h1>Hi, I'm Bryant.</h1>
-        <h2>I'm a software engineer.</h2>
+        <h1>hi, i'm bryant 👋🏻</h1>
+        <h2>i'm a software engineer 🧑🏻‍💻</h2>
         <h3>
-          {"This is my "}
-          <code>{modifers[randomNumber]}</code>
-          {" website."}
+          {"this is my "}
+          <code>{bits[randomNumber]}</code>
+          {" 🌎"}
         </h3>
       </div>
     </div>
