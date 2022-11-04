@@ -5,7 +5,6 @@ export default function Header() {
         <nav>
           <a href="/">Bryant Kelley 🖥</a>
           <a href="https://github.com/bryantkelley">GitHub 🚀</a>
-          <a href="https://twitter.com/_bryantkelley">Twitter 🐦</a>
         </nav>
       </div>
     </div>
